@@ -1,5 +1,7 @@
 <h1>Hi 👋, I'm Alfredo</h1>
-<p>A passionate frontend developer from </p>
+<p>Innovative Software Engineer, AI Strategist & UI/UX Designer | Crafting Future-Ready Tech for Impactful Growth </p>
+
+## Contribution Graph
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anl331/anl331/output/github-snake-dark.svg" />
