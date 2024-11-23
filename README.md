@@ -1,6 +1,12 @@
 <h1>Hi 👋, I'm Alfredo</h1>
 <p>A passionate frontend developer from </p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anl331/anl331/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anl331/anl331/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/anl331/anl331/output/github-snake.svg" />
+</picture>
+
 ## Skills
 
 ### Programming Languages
