@@ -1,89 +1,115 @@
-<h1>Hi 👋, I'm Alfredo</h1>
-<p>Innovative Software Engineer, AI Strategist & UI/UX Designer | Crafting Future-Ready Tech for Impactful Growth </p>
+<!-- ════════════════════════  HERO  ════════════════════════ -->
 
-## Contribution Graph
+<a href="https://alfredonatal.com">
+  <img src="./assets/hero.png" alt="Alfredo Natal II — Product Engineer & Indie Builder · I make things that feel right to use." width="100%" />
+</a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anl331/anl331/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anl331/anl331/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/anl331/anl331/output/github-snake.svg" />
-</picture>
-
-## Skills
-
-### Programming Languages
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<p align="center">
+  <a href="https://alfredonatal.com"><img src="https://img.shields.io/badge/Portfolio-0B0B0F?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/alfredonatal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/_itsanl"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <img src="https://komarev.com/ghpvc/?username=anl331&style=for-the-badge&color=6366F1&label=Views" alt="profile views" />
 </p>
 
-### Frontend Development
+<!-- ════════════════════════  ABOUT  ════════════════════════ -->
+
+## 👋 About
+
+Product designer **and** developer in **New York** with two decades building digital products. I ship end-to-end on my own — design taste plus full-stack engineering — using AI agents and multi-agent workflows to move at a pace that used to need a whole team.
+
+> *“I make things that feel right to use.”*
+
+- 🛠️ Building AI-native SaaS solo at **Natal Ventures**
+- 📦 Open-source author — [`goey-toast`](https://github.com/anl331/goey-toast) runs on thousands of projects
+- 💬 Ask me about LLM agents, design systems, or going zero-to-one
+- 🌎 English &amp; Spanish &nbsp;·&nbsp; **Open to Product Engineering roles**
+
+<!-- ════════════════════════  HOW I WORK  ════════════════════════ -->
+
+## 🧭 How I Work
+
+<img src="./assets/capabilities.png" alt="Design · Engineer · Ship with AI" width="100%" />
+
+<!-- ════════════════════════  FEATURED OSS  ════════════════════════ -->
+
+## ⭐ Featured Open Source
+
+<a href="https://github.com/anl331/goey-toast">
+  <img src="./assets/goey-toast.png" alt="goey-toast — morphing toast notifications for React · 1.1k stars · 7.2k npm downloads / week" width="100%" />
+</a>
+
 <p>
-  <img src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Sass-%23CC6699.svg?style=for-the-badge&logo=sass&logoColor=white" alt="Sass" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
+  <a href="https://github.com/anl331/goey-toast"><img src="https://img.shields.io/github/stars/anl331/goey-toast?style=social" alt="stars" /></a>
+  <a href="https://www.npmjs.com/package/goey-toast"><img src="https://img.shields.io/npm/dw/goey-toast?style=flat-square&color=4F9D5B&label=npm%20downloads" alt="npm downloads" /></a>
+  <a href="https://goey-toast.vercel.app"><img src="https://img.shields.io/badge/live%20demo-goey--toast.vercel.app-4F9D5B?style=flat-square" alt="demo" /></a>
 </p>
 
-### Backend Development
-<p>
-  <img src="https://img.shields.io/badge/Node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS" />
-</p>
+<!-- ════════════════════════  VENTURES  ════════════════════════ -->
 
-### Mobile App Development
-<p>
-  <img src="https://img.shields.io/badge/React_Native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React Native" />
-</p>
+## 🚀 Ventures &amp; Products
 
-### Database
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-</p>
+| Product | What it is |
+|---|---|
+| 🧠 **[TCT — Trading Confluence Tool](https://alfredonatal.com)** | SaaS browser extension for TradingView traders — journaling + performance analytics. **670+ users.** |
+| 💉 **ShotM8** | Mobile app for injectable-medication management — dose tracking with cloud sync. |
+| 🪪 **IDScannerAPI** | API for government-ID scanning &amp; verification using computer vision. |
+| 🍞 **[goey-toast](https://github.com/anl331/goey-toast)** | Open-source gooey, morphing React toast — built on Sonner + Framer Motion. |
 
-### Cloud & DevOps
-<p>
-  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku" />
-</p>
+<!-- ════════════════════════  MORE OSS  ════════════════════════ -->
 
-### Testing
-<p>
-  <img src="https://img.shields.io/badge/Selenium-%2343B02A.svg?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium" />
-  <img src="https://img.shields.io/badge/Puppeteer-%2340B5A4.svg?style=for-the-badge&logo=puppeteer&logoColor=white" alt="Puppeteer" />
-  <img src="https://img.shields.io/badge/Nightwatch.js-%23001B2C.svg?style=for-the-badge&logo=nightwatch&logoColor=white" alt="Nightwatch.js" />
-</p>
+## 📦 More Open Source
 
-### Design
 <p>
-  <img src="https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Adobe_XD-%23FF61F6.svg?style=for-the-badge&logo=adobe-xd&logoColor=white" alt="Adobe XD" />
-  <img src="https://img.shields.io/badge/Adobe_Illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe-illustrator&logoColor=white" alt="Illustrator" />
-  <img src="https://img.shields.io/badge/Adobe_Photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe-photoshop&logoColor=white" alt="Photoshop" />
-  <img src="https://img.shields.io/badge/Sketch-%23F7B500.svg?style=for-the-badge&logo=sketch&logoColor=black" alt="Sketch" />
-  <img src="https://img.shields.io/badge/Framer-%23000000.svg?style=for-the-badge&logo=framer&logoColor=white" alt="Framer" />
-</p>
-
-### Tools
-<p>
-  <img src="https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/IFTTT-%23000000.svg?style=for-the-badge&logo=ifttt&logoColor=white" alt="IFTTT" />
-  <img src="https://img.shields.io/badge/Zapier-%23FF4A00.svg?style=for-the-badge&logo=zapier&logoColor=white" alt="Zapier" />
-</p>
-
-## ⚡️ Where to find me
-<p>
-  <a href="https://www.linkedin.com/in/anatal31/" target="_blank">
-    <img src="https://img.shields.io/badge/linkedin-%230a77b6.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" />
+  <a href="https://github.com/anl331/goey-toast">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anl331&repo=goey-toast&theme=tokyonight&hide_border=true&bg_color=0B0B0F&title_color=6366F1&icon_color=6366F1" alt="goey-toast" />
   </a>
-  <a href="https://www.instagram.com/_itsanl" target="_blank">
-    <img src="https://img.shields.io/badge/instagram-%23F35369.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" />
+  <a href="https://github.com/anl331/gooey-search-tabs">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anl331&repo=gooey-search-tabs&theme=tokyonight&hide_border=true&bg_color=0B0B0F&title_color=6366F1&icon_color=6366F1" alt="gooey-search-tabs" />
   </a>
 </p>
+<p>
+  <a href="https://github.com/anl331/vid-clipper">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anl331&repo=vid-clipper&theme=tokyonight&hide_border=true&bg_color=0B0B0F&title_color=6366F1&icon_color=6366F1" alt="vid-clipper" />
+  </a>
+  <a href="https://github.com/anl331/chromakey-video-react">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anl331&repo=chromakey-video-react&theme=tokyonight&hide_border=true&bg_color=0B0B0F&title_color=6366F1&icon_color=6366F1" alt="chromakey-video-react" />
+  </a>
+</p>
+
+<!-- ════════════════════════  STATS  ════════════════════════ -->
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=anl331&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0B0B0F&title_color=6366F1&icon_color=6366F1&count_private=true" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anl331&layout=compact&hide_border=true&theme=tokyonight&bg_color=0B0B0F&title_color=6366F1&langs_count=8" alt="top langs" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=anl331&hide_border=true&theme=tokyonight&background=0B0B0F&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" alt="streak" />
+
+</div>
+
+<!-- ════════════════════════  SNAKE  ════════════════════════ -->
+
+## 🐍 Contribution Graph
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anl331/anl331/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anl331/anl331/output/github-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/anl331/anl331/output/github-snake.svg" />
+  </picture>
+</div>
+
+<!-- ════════════════════════  FOOTER  ════════════════════════ -->
+
+<div align="center">
+
+### Let's build something that feels right.
+
+<a href="https://alfredonatal.com"><img src="https://img.shields.io/badge/alfredonatal.com-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="website" /></a>
+<a href="https://www.linkedin.com/in/alfredonatal/"><img src="https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
+
+</div>
