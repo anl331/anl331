@@ -40,7 +40,7 @@ I'm a product designer and developer in New York, about twenty years in. I build
 ## FEATURED OPEN SOURCE
 
 <a href="https://github.com/anl331/goey-toast">
-  <img src="./assets/goey-toast.png" alt="goey-toast — morphing toast notifications for React · 1.1k stars · 7.2k npm downloads / week" width="100%" />
+  <img src="https://raw.githubusercontent.com/anl331/anl331/live-stats/assets/goey-toast.png" alt="goey-toast — morphing toast notifications for React. Stars and npm downloads update automatically." width="100%" />
 </a>
 
 <p>
@@ -73,16 +73,14 @@ I'm a product designer and developer in New York, about twenty years in. I build
 
 ## MORE OPEN SOURCE
 
-<table>
-  <tr>
-    <td width="50%"><a href="https://github.com/anl331/goey-toast"><img src="./assets/card-goey-toast.png" width="100%" alt="goey-toast" /></a></td>
-    <td width="50%"><a href="https://github.com/anl331/gooey-search-tabs"><img src="./assets/card-gooey-search-tabs.png" width="100%" alt="gooey-search-tabs" /></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://github.com/anl331/vid-clipper"><img src="./assets/card-vid-clipper.png" width="100%" alt="vid-clipper" /></a></td>
-    <td width="50%"><a href="https://github.com/anl331/chromakey-video-react"><img src="./assets/card-chromakey-video-react.png" width="100%" alt="chromakey-video-react" /></a></td>
-  </tr>
-</table>
+<p>
+  <a href="https://github.com/anl331/goey-toast"><img src="https://raw.githubusercontent.com/anl331/anl331/live-stats/assets/card-goey-toast.png" width="49%" alt="goey-toast" /></a>
+  <a href="https://github.com/anl331/gooey-search-tabs"><img src="https://raw.githubusercontent.com/anl331/anl331/live-stats/assets/card-gooey-search-tabs.png" width="49%" alt="gooey-search-tabs" /></a>
+</p>
+<p>
+  <a href="https://github.com/anl331/vid-clipper"><img src="https://raw.githubusercontent.com/anl331/anl331/live-stats/assets/card-vid-clipper.png" width="49%" alt="vid-clipper" /></a>
+  <a href="https://github.com/anl331/chromakey-video-react"><img src="https://raw.githubusercontent.com/anl331/anl331/live-stats/assets/card-chromakey-video-react.png" width="49%" alt="chromakey-video-react" /></a>
+</p>
 
 <!-- ════════════════════════  FOOTER  ════════════════════════ -->
 
