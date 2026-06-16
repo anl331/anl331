@@ -1,15 +1,19 @@
 <!-- ════════════════════════  HERO  ════════════════════════ -->
 
 <a href="https://alfredonatal.com">
-  <img src="./assets/hero.png" alt="Alfredo Natal II — Product Designer & Developer · I make things that feel right to use." width="100%" />
+  <img src="./assets/hero.gif" alt="Alfredo Natal II — Product Designer & Developer · I make things that feel right to use." width="100%" />
 </a>
 
+<!-- ════════════════════════  SOCIAL  ════════════════════════ -->
+
 <p align="center">
-  <a href="https://alfredonatal.com"><img src="https://img.shields.io/badge/PORTFOLIO-FACC15?style=flat-square&logoColor=050505&labelColor=FACC15" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/alfredonatal/"><img src="https://img.shields.io/badge/LINKEDIN-0a0a0a?style=flat-square&logo=linkedin&logoColor=FACC15" alt="LinkedIn" /></a>
-  <a href="https://x.com/_itsanl"><img src="https://img.shields.io/badge/X-0a0a0a?style=flat-square&logo=x&logoColor=FACC15" alt="X" /></a>
-  <a href="https://github.com/anl331"><img src="https://img.shields.io/badge/GITHUB-0a0a0a?style=flat-square&logo=github&logoColor=FACC15" alt="GitHub" /></a>
-  <img src="https://komarev.com/ghpvc/?username=anl331&style=flat-square&color=FACC15&labelColor=0a0a0a&label=VIEWS" alt="views" />
+  <a href="https://github.com/anl331"><img src="./assets/btn-github.png" width="46" alt="GitHub" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/alfredonatal/"><img src="./assets/btn-linkedin.png" width="46" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="https://x.com/_itsanl"><img src="./assets/btn-x.png" width="46" alt="X" /></a>
+  &nbsp;
+  <a href="https://alfredonatal.com"><img src="./assets/btn-web.png" width="46" alt="Portfolio" /></a>
 </p>
 
 <!-- ════════════════════════  ABOUT  ════════════════════════ -->
@@ -23,7 +27,7 @@ Product **designer** and **developer** in **New York** with two decades building
 - **Building** AI-native SaaS solo at **Natal Ventures**
 - **Open-source author** — [`goey-toast`](https://github.com/anl331/goey-toast) runs on thousands of projects
 - **Ask me about** LLM agents, design systems, or going zero-to-one
-- English &amp; Spanish &nbsp;·&nbsp; **Open to Product Engineering roles**
+- English &amp; Spanish &nbsp;·&nbsp; **Open to Product Designer / Engineering roles**
 
 <!-- ════════════════════════  WHAT I DO  ════════════════════════ -->
 
@@ -49,13 +53,19 @@ Product **designer** and **developer** in **New York** with two decades building
 
 ## VENTURES &amp; PRODUCTS
 
-| Product | What it is |
-|---|---|
-| 🔧 **[OEMPRO](https://oempro.io)** | SaaS for collision-repair shops — analyzes estimates against OEM data and surfaces missed operations the shop can legitimately bill the insurer for. |
-| 🧠 **[TCT — Trading Confluence Tool](https://usetct.io)** | SaaS browser extension for TradingView traders — journaling + performance analytics. **670+ users.** |
-| 💉 **ShotM8** | Mobile app for injectable-medication management — dose tracking with cloud sync. |
-| 🪪 **IDScannerAPI** | API for government-ID scanning &amp; verification using computer vision. |
-| 🍞 **[goey-toast](https://github.com/anl331/goey-toast)** | Open-source gooey, morphing React toast — built on Sonner + Framer Motion. |
+<a href="https://oempro.io">
+  <img src="./assets/oempro.png" alt="OEMPRO — catch every missed operation. OEM-backed collision estimate analysis." width="100%" />
+</a>
+
+<a href="https://usetct.io">
+  <img src="./assets/tct.jpg" alt="TCT — Trading Confluence Tool. Professional trade grading & market analysis." width="100%" />
+</a>
+
+<a href="https://shotm8.app">
+  <img src="./assets/shotm8.png" alt="ShotM8 — master your GLP-1 & peptide therapy journey. Dose tracking with cloud sync." width="100%" />
+</a>
+
+**Also:** [`IDScannerAPI`](https://alfredonatal.com) — government-ID scanning &amp; verification via computer vision &nbsp;·&nbsp; [`goey-toast`](https://github.com/anl331/goey-toast) — open-source morphing React toast.
 
 <!-- ════════════════════════  MORE OSS  ════════════════════════ -->
 
@@ -77,14 +87,6 @@ Product **designer** and **developer** in **New York** with two decades building
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=anl331&repo=chromakey-video-react&bg_color=050505&border_color=262626&title_color=FACC15&text_color=a3a3a3&icon_color=FACC15" alt="chromakey-video-react" />
   </a>
 </p>
-
-<!-- ════════════════════════  STREAK  ════════════════════════ -->
-
-## STREAK
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=anl331&hide_border=true&background=050505&stroke=262626&ring=FACC15&fire=FACC15&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FACC15&sideLabels=a3a3a3&dates=737373" alt="streak" />
-</div>
 
 <!-- ════════════════════════  FOOTER  ════════════════════════ -->
 
