@@ -1,5 +1,7 @@
 import { chromium } from 'playwright';
 import fs from 'node:fs';
+import os from 'node:os';
+import { execFileSync } from 'node:child_process';
 
 const USER = 'anl331';
 const REPOS = ['goey-toast', 'gooey-search-tabs', 'vid-clipper', 'chromakey-video-react'];
@@ -61,6 +63,31 @@ for (const r of REPOS) {
   const url = `${base}templates/repocard.html?r=${r}&s=${fmt(info[r].stars)}&f=${info[r].forks || ''}`;
   await shot(`assets/card-${r}.png`, url, 600, 230);
 }
+
+// ---- animated hero GIF (typing DEVELOPER <-> DESIGNER + live star count) ----
+const starLabel = fmt(info['goey-toast'].stars).toUpperCase() + '★'; // e.g. 1.1K★
+const heroHtml = fs
+  .readFileSync('templates/hero.html', 'utf8')
+  .replaceAll('__STARS__', starLabel);
+fs.writeFileSync('.render-hero.html', heroHtml);
+
+const tmp = fs.mkdtempSync(os.tmpdir() + '/hero-');
+const FRAMES = 25;
+for (let i = 0; i < FRAMES; i++) {
+  const page = await browser.newPage({ viewport: { width: 1200, height: 430 }, deviceScaleFactor: 1 });
+  await page.goto(`${base}.render-hero.html?f=${i}`, { waitUntil: 'networkidle' });
+  await page.evaluate(() => document.fonts.ready);
+  await page.waitForTimeout(300);
+  await page.screenshot({ path: `${tmp}/frame_${String(i).padStart(3, '0')}.png` });
+  await page.close();
+}
+execFileSync('ffmpeg', ['-y', '-framerate', '9', '-i', `${tmp}/frame_%03d.png`,
+  '-vf', 'palettegen=max_colors=200:stats_mode=full', `${tmp}/pal.png`]);
+execFileSync('ffmpeg', ['-y', '-framerate', '9', '-i', `${tmp}/frame_%03d.png`, '-i', `${tmp}/pal.png`,
+  '-lavfi', 'paletteuse=dither=sierra2_4a', '-loop', '0', 'assets/hero.gif']);
+fs.rmSync('.render-hero.html', { force: true });
+fs.rmSync(tmp, { recursive: true, force: true });
+console.log('rendered assets/hero.gif');
 
 await browser.close();
 fs.rmSync('.render-featured.html', { force: true });

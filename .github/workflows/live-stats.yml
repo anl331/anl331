@@ -28,6 +28,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
       - name: Install deps
         run: |
           npm install --no-save playwright@1.48.2
@@ -44,7 +47,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout --orphan live-stats
           git reset
-          git add -f assets/goey-toast.png \
+          git add -f assets/hero.gif \
+                     assets/goey-toast.png \
                      assets/card-goey-toast.png \
                      assets/card-gooey-search-tabs.png \
                      assets/card-vid-clipper.png \

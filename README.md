@@ -1,7 +1,7 @@
 <!-- ════════════════════════  HERO  ════════════════════════ -->
 
 <a href="https://alfredonatal.com">
-  <img src="./assets/hero.gif" alt="Alfredo Natal II — Product Designer & Developer · I make things that feel right to use." width="100%" />
+  <img src="https://raw.githubusercontent.com/anl331/anl331/live-stats/assets/hero.gif" alt="Alfredo Natal II — Product Designer & Developer · I make things that feel right to use." width="100%" />
 </a>
 
 <!-- ════════════════════════  SOCIAL  ════════════════════════ -->
