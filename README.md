@@ -53,13 +53,19 @@ Product **designer** and **developer** in **New York** with two decades building
 
 ## VENTURES &amp; PRODUCTS
 
+### OEMPRO
+
 <a href="https://oempro.io">
   <img src="./assets/oempro.png" alt="OEMPRO — catch every missed operation. OEM-backed collision estimate analysis." width="100%" />
 </a>
 
+### TCT — Trading Confluence Tool
+
 <a href="https://usetct.io">
-  <img src="./assets/tct.jpg" alt="TCT — Trading Confluence Tool. Professional trade grading & market analysis." width="100%" />
+  <img src="./assets/tct.png" alt="TCT — Trading Confluence Tool. Professional trade grading & market analysis." width="100%" />
 </a>
+
+### ShotM8
 
 <a href="https://shotm8.app">
   <img src="./assets/shotm8.png" alt="ShotM8 — master your GLP-1 & peptide therapy journey. Dose tracking with cloud sync." width="100%" />
@@ -71,22 +77,16 @@ Product **designer** and **developer** in **New York** with two decades building
 
 ## MORE OPEN SOURCE
 
-<p>
-  <a href="https://github.com/anl331/goey-toast">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anl331&repo=goey-toast&bg_color=050505&border_color=262626&title_color=FACC15&text_color=a3a3a3&icon_color=FACC15" alt="goey-toast" />
-  </a>
-  <a href="https://github.com/anl331/gooey-search-tabs">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anl331&repo=gooey-search-tabs&bg_color=050505&border_color=262626&title_color=FACC15&text_color=a3a3a3&icon_color=FACC15" alt="gooey-search-tabs" />
-  </a>
-</p>
-<p>
-  <a href="https://github.com/anl331/vid-clipper">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anl331&repo=vid-clipper&bg_color=050505&border_color=262626&title_color=FACC15&text_color=a3a3a3&icon_color=FACC15" alt="vid-clipper" />
-  </a>
-  <a href="https://github.com/anl331/chromakey-video-react">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anl331&repo=chromakey-video-react&bg_color=050505&border_color=262626&title_color=FACC15&text_color=a3a3a3&icon_color=FACC15" alt="chromakey-video-react" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/anl331/goey-toast"><img src="./assets/card-goey-toast.png" width="100%" alt="goey-toast" /></a></td>
+    <td width="50%"><a href="https://github.com/anl331/gooey-search-tabs"><img src="./assets/card-gooey-search-tabs.png" width="100%" alt="gooey-search-tabs" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/anl331/vid-clipper"><img src="./assets/card-vid-clipper.png" width="100%" alt="vid-clipper" /></a></td>
+    <td width="50%"><a href="https://github.com/anl331/chromakey-video-react"><img src="./assets/card-chromakey-video-react.png" width="100%" alt="chromakey-video-react" /></a></td>
+  </tr>
+</table>
 
 <!-- ════════════════════════  FOOTER  ════════════════════════ -->
 
