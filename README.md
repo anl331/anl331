@@ -20,14 +20,14 @@
 
 ## ABOUT
 
-Product **designer** and **developer** in **New York** with two decades building digital products. I design, build, and ship entire products solo — design taste plus full-stack engineering — using AI agents and multi-agent workflows to move at a pace that used to need a whole team.
+I'm a product designer and developer in New York, about twenty years in. I build whole products by myself: the design, the code, the launch. These days I lean on AI agents to handle the work that used to take a team.
 
-> *“I make things that feel right to use.”*
+> *"I make things that feel right to use."*
 
-- **Building** AI-native SaaS solo at **Natal Ventures**
-- **Open-source author** — [`goey-toast`](https://github.com/anl331/goey-toast) runs on thousands of projects
-- **Ask me about** LLM agents, design systems, or going zero-to-one
-- English &amp; Spanish &nbsp;·&nbsp; **Open to Product Designer / Engineering roles**
+- Building AI-native SaaS solo at Natal Ventures right now
+- My open-source toast library, goey-toast, runs on a few thousand projects
+- Ask me about LLM agents, design systems, or taking an idea from nothing to live
+- English and Spanish. Open to product designer / engineer roles
 
 <!-- ════════════════════════  WHAT I DO  ════════════════════════ -->
 
@@ -62,16 +62,10 @@ Product **designer** and **developer** in **New York** with two decades building
 ### TCT — Trading Confluence Tool
 
 <a href="https://usetct.io">
-  <img src="./assets/tct.png" alt="TCT — Trading Confluence Tool. Professional trade grading & market analysis." width="100%" />
+  <img src="./assets/tct.png" alt="TCT — Trading Confluence Tool. Trade grading and market analysis." width="100%" />
 </a>
 
-### ShotM8
-
-<a href="https://shotm8.app">
-  <img src="./assets/shotm8.png" alt="ShotM8 — master your GLP-1 & peptide therapy journey. Dose tracking with cloud sync." width="100%" />
-</a>
-
-**Also:** [`IDScannerAPI`](https://alfredonatal.com) — government-ID scanning &amp; verification via computer vision &nbsp;·&nbsp; [`goey-toast`](https://github.com/anl331/goey-toast) — open-source morphing React toast.
+Also building: **[ShotM8](https://shotm8.app)**, a GLP-1 and peptide dose tracker. **IDScannerAPI**, ID scanning and verification with computer vision. And **[goey-toast](https://github.com/anl331/goey-toast)**, the open-source toast library.
 
 <!-- ════════════════════════  MORE OSS  ════════════════════════ -->
 
