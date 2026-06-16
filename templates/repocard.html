@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Nunito:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:600px;height:230px;background:transparent}
+.card{width:600px;height:230px;background:#050505;border:1px solid #262626;padding:28px 30px;display:flex;flex-direction:column}
+.top{display:flex;align-items:center;gap:11px;margin-bottom:14px}
+.top svg{width:22px;height:22px;stroke:#FACC15;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.top .name{font-family:'Oswald',sans-serif;font-weight:700;font-size:26px;color:#FACC15;letter-spacing:.005em}
+.desc{font-family:'Nunito',sans-serif;font-size:15.5px;line-height:1.5;color:#a3a3a3;font-weight:500;flex:1}
+.meta{display:flex;align-items:center;gap:22px;font-family:'JetBrains Mono',monospace;font-size:14px;color:#d4d4d8;font-weight:500}
+.meta .it{display:flex;align-items:center;gap:8px}
+.meta .lang{width:13px;height:13px;border-radius:50%;background:#3178C6}
+.meta svg{width:15px;height:15px;stroke:#FACC15;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+</style></head>
+<body>
+  <div class="card">
+    <div class="top">
+      <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+      <span class="name" id="name">repo</span>
+    </div>
+    <div class="desc" id="desc">description</div>
+    <div class="meta">
+      <span class="it"><span class="lang"></span> <span>TypeScript</span></span>
+      <span class="it"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> <span id="stars">0</span></span>
+      <span class="it" id="forkwrap"><svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="12" cy="18" r="3"/><path d="M6 9v3a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V9"/><line x1="12" y1="15" x2="12" y2="18"/></svg> <span id="forks">0</span></span>
+    </div>
+  </div>
+<script>
+var DESC={
+ 'goey-toast':"A gooey, morphing toast component built on Sonner with Framer Motion animations.",
+ 'gooey-search-tabs':"A morphing search bar component with animated tab navigation for React. Built with Framer Motion.",
+ 'vid-clipper':"AI-powered video clipper. Paste a URL, get short-form vertical clips with captions and smart face tracking.",
+ 'chromakey-video-react':"Real-time chroma key (green screen) video in React. GPU-powered WebGL shader — no FFmpeg, no pre-processing."
+};
+var q=new URLSearchParams(location.search);
+var k=q.get('r')||'goey-toast';
+document.getElementById('name').textContent=k;
+document.getElementById('desc').textContent=DESC[k]||'';
+document.getElementById('stars').textContent=q.get('s')||'0';
+var f=q.get('f');
+if(!f||f==='0'||f===''){document.getElementById('forkwrap').style.display='none';}
+else{document.getElementById('forks').textContent=f;}
+</script>
+</body></html>

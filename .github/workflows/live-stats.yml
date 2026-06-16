@@ -1,0 +1,53 @@
+name: live-stats
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours
+  workflow_dispatch:        # manual run
+  push:
+    branches: [main]
+    paths:
+      - 'templates/**'
+      - 'scripts/render-stats.mjs'
+      - '.github/workflows/live-stats.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-stats
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: |
+          npm install --no-save playwright@1.48.2
+          npx playwright install --with-deps chromium
+
+      - name: Render stat images
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/render-stats.mjs
+
+      - name: Publish to live-stats branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan live-stats
+          git reset
+          git add -f assets/goey-toast.png \
+                     assets/card-goey-toast.png \
+                     assets/card-gooey-search-tabs.png \
+                     assets/card-vid-clipper.png \
+                     assets/card-chromakey-video-react.png
+          git commit -m "live stats: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -f origin live-stats

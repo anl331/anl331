@@ -1,0 +1,11 @@
+{
+  "name": "anl331-readme",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "stats": "node scripts/render-stats.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.48.2"
+  }
+}
