@@ -13,7 +13,7 @@
   &nbsp;
   <a href="https://x.com/_itsanl"><img src="./assets/btn-x.png" width="46" alt="X" /></a>
   &nbsp;
-  <a href="https://alfredonatal.com"><img src="./assets/btn-web.png" width="46" alt="Portfolio" /></a>
+  <a href="https://alfredonatal.com"><img src="./assets/btn-site.png" width="46" alt="Portfolio" /></a>
 </p>
 
 <!-- ════════════════════════  ABOUT  ════════════════════════ -->
@@ -65,7 +65,9 @@ I'm a product designer and developer in New York, about twenty years in. I build
   <img src="./assets/tct.png" alt="TCT — Trading Confluence Tool. Trade grading and market analysis." width="100%" />
 </a>
 
-Also building: **[ShotM8](https://shotm8.app)**, a GLP-1 and peptide dose tracker. **IDScannerAPI**, ID scanning and verification with computer vision. And **[goey-toast](https://github.com/anl331/goey-toast)**, the open-source toast library.
+### Also shipped
+
+**[ShotM8](https://shotm8.app)** — GLP-1 and peptide dose tracker, live on mobile with real users. **IDScannerAPI** — ID scanning and verification built on computer vision. **[goey-toast](https://github.com/anl331/goey-toast)** — open-source toast library.
 
 <!-- ════════════════════════  MORE OSS  ════════════════════════ -->
 
